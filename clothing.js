@@ -18,14 +18,9 @@ $(document).ready(function() {
 			];
 
 			clothing.forEach(function(datapt){
-			   console.log(datapt.size);
+			   document.write(datapt.size);
 		})
 
 	})
 //make our array
 
-
-
-// $('#table_id tr').each(function() {
-//     serializedData += '&' + $(this).attr('id') + '=' + $(this).attr('id')+'_'+$(:first_child).text();
-// });
